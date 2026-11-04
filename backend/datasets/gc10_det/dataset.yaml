@@ -1,0 +1,15 @@
+path: E:\Gen Ai Major Project\industrial-quality-inspector\backend\datasets\gc10_det\yolo
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: punching hole
+  1: welding line
+  2: crescent gap
+  3: water spot
+  4: oil spot
+  5: silk spot
+  6: inclusion
+  7: rolled-in scale
+  8: scratches
+  9: waist folding

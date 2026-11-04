@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased selection:bg-blue-600 selection:text-white font-sans;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  /* Custom scrollbars for industrial density */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0f172a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #475569;
+  }
+}
+
+.custom-card {
+  @apply bg-white border border-slate-200/90 rounded-xl shadow-xs transition-all duration-200 hover:shadow-md;
+}
+
+.industrial-card {
+  @apply bg-white/95 backdrop-blur-md border border-slate-200/90 rounded-2xl shadow-xs transition-all duration-200 hover:shadow-md hover:border-slate-300;
+}
+
+.glass-panel {
+  @apply bg-slate-900/80 backdrop-blur-md border border-slate-800 rounded-xl;
+}
+
+.metric-pill {
+  @apply px-2.5 py-0.5 rounded-full text-xs font-semibold tracking-wide inline-flex items-center gap-1.5;
+}
+
+/* Subtle glow animations for high-stakes B.Tech presentation */
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px -3px rgba(37, 99, 235, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 25px 0px rgba(37, 99, 235, 0.7);
+  }
+}
+
+.glow-blue {
+  animation: pulseGlow 3s infinite ease-in-out;
+}
+

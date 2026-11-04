@@ -1,0 +1,21 @@
+<annotation>
+    <folder>IMAGES</folder>
+    <filename>rolled-in_scale_2.jpg</filename>
+    <size>
+        <width>640</width>
+        <height>640</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>rolled-in_scale</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>110</xmin>
+            <ymin>120</ymin>
+            <xmax>540</xmax>
+            <ymax>500</ymax>
+        </bndbox>
+    </object>
+</annotation>

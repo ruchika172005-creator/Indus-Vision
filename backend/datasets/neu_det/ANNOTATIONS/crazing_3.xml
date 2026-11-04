@@ -1,0 +1,21 @@
+<annotation>
+    <folder>IMAGES</folder>
+    <filename>crazing_3.jpg</filename>
+    <size>
+        <width>640</width>
+        <height>640</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>crazing</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>64</xmin>
+            <ymin>80</ymin>
+            <xmax>576</xmax>
+            <ymax>560</ymax>
+        </bndbox>
+    </object>
+</annotation>

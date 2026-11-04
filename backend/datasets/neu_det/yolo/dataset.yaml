@@ -1,0 +1,11 @@
+path: E:\Gen Ai Major Project\industrial-quality-inspector\backend\datasets\neu_det\yolo
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: crazing
+  1: inclusion
+  2: patches
+  3: pitted surface
+  4: rolled-in scale
+  5: scratches

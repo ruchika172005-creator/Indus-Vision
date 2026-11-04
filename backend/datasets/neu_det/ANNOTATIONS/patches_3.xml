@@ -1,0 +1,21 @@
+<annotation>
+    <folder>IMAGES</folder>
+    <filename>patches_3.jpg</filename>
+    <size>
+        <width>640</width>
+        <height>640</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>patches</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>90</xmin>
+            <ymin>120</ymin>
+            <xmax>540</xmax>
+            <ymax>530</ymax>
+        </bndbox>
+    </object>
+</annotation>
